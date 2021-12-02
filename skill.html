@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="skill.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            MEDHANSH
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a  href="home.html">HOME</a></li>
+           <li><a href="about.html">ABOUT</a></li>
+           <li><a  class="active"href="skill.html">SKILLS</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+           <li><a href="service.html">SERVICE</a></li>
+        </ul>
+     </nav>
+
+
+
+     <div class="m">
+        <p>HTML</p>
+  <div class="container">
+    <div class="skills html">90%</div>
+  </div>
+  
+  <p>CSS</p>
+  <div class="container">
+    <div class="skills css">80%</div>
+  </div>
+  
+  <p>JavaScript</p>
+  <div class="container">
+    <div class="skills js">65%</div>
+  </div>
+  
+  </div>
+
+  
+<SCRIPT language=JavaScript>
+
+    ///disable right click////////////////////////////////////////////////////////////////////  
+    var message="Function is disabled";
+    function rtclickcheck(keyp){
+      if (navigator.appName == "Netscape" && keyp.which == 3){
+       alert(message); return false; }
+    
+    if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+     alert(message); return false; } }
+    
+    document.onmousedown = rtclickcheck;
+  </SCRIPT>
+    
+
+</body>
+</html>

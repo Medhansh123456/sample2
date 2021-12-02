@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="service.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          MEDHANSH
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a href="home.html" >Home</a></li>
+           <li><a href="about.html">ABOUT</a></li>
+           <li><a href="skill.html" >SKILLS</a></li>
+           <li><a   href="contact.html">Contact</a></li>
+           <li><a class="active" href="service.html">Services</a></li>
+         
+    
+        </ul>
+     </nav>
+    <section>
+        <h3>Our Services</h3>
+        <p class="section-lead">Web development using HTML CSS and JAVASCRIPT and<br>
+         logo Design
+        </p>
+        <div class="services-grid">
+          <div class="service service1">
+            <i class="ti-bar-chart"></i>
+            <h4>WEB DESIGN</h4>
+            <p>As a web designer, you'll plan, create and code web pages, using both technical and non-technical skills to produce websites that fit your customers' requirements. Being involved in the technical and graphical aspects of pages, you'll determine not only the look of the website but how it works as well.</p>
+          </div>
+      
+          <div class="service service2">
+            <i class="ti-light-bulb"></i>
+            <h4>WEB DEVELOPMENT</h4>
+            <p>A Web Developer is responsible for the coding, design and layout of a website according to a company's specifications. As the role takes into consideration user experience and function, a certain level of both graphic design and computer programming is necessary</p>
+          </div>
+      
+          <div class="service service3">
+            <i class="ti-money"></i>
+            <h4>LOGO DESING</h4>
+            <p>Logo designers are professional graphic designers who create unique and custom brand imagery for the individual or company who hired them. Logo designers can either be freelancers, full-time employees at a design firm or advertising agency, or work under a temporary contract..</p>
+          </div>
+        </div>
+      </section>
+
+      
+<SCRIPT language=JavaScript>
+
+  ///disable right click////////////////////////////////////////////////////////////////////  
+  var message="Function is disabled";
+  function rtclickcheck(keyp){
+    if (navigator.appName == "Netscape" && keyp.which == 3){
+     alert(message); return false; }
+  
+  if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+   alert(message); return false; } }
+  
+  document.onmousedown = rtclickcheck;
+</SCRIPT>
+  
+</body>
+</html>
